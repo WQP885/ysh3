@@ -1,0 +1,138 @@
+.container{width:100%px;
+margin:0 auto;
+background-color:#1D897D;
+padding:30px;}
+.header{background-color:#1D897D;
+margin:20px auto 30px;
+text-align:center;
+ling-hieght:20px;
+font-size:38px;
+font-family:STFangsong;
+color:#F3EBEB;}
+.article{font-family:"LiSu";
+font-size:20px;
+letter-spacing:2px;
+text-indent:3em;
+line-height:40px;
+float:left;
+background:#1D897D;
+margin-top:-2px;
+color:#F3EBEB; }
+.aside{height:200px;
+background-color:#1D897D;
+width:100%px;
+text-align:left;
+margin-left:210px;
+margin-top:-344px;
+font-size:16px;
+line-height:30px;}
+.main {height:100px;
+background-color:#1D897D;
+width:100%px;
+text-align:left;
+line-height:35px;
+position:relative;
+margin-bottom:20px;
+font-size:15px;
+padding:10px;
+}
+.section{height:286px;
+background-color:#1D897D;
+width:100%px;
+text-align:left;
+line-height:35px;
+position:inherit;
+left:5px;
+margin-left:255px;
+margin-top:-300px;
+font-size:20px;
+padding:5px;
+color:#F3EBEB;}
+.section2{height:250px;
+background-color:#1D897D;
+width:100%px;
+text-align:left;
+line-height:40px;
+	float:inherit;
+margin-top:-280px;
+margin-left:509px;
+font-size:20px;
+padding:5px;
+color:#F3EBEB;}
+.section3{height:250px;
+width:100%px;
+text-align:left;
+line-height:40px;
+	float:inherit;
+margin-top:-110px;
+margin-left:509px;
+font-size:50px;
+padding:5px;
+	color:#CB2D30;
+font-family:"正楷";}
+.section4{height:250px;
+width:100%px;
+text-align:left;
+line-height:40px;
+	float:inherit;
+margin-top:-110px;
+margin-left:509px;
+font-size:50px;
+padding:5px;
+font-family:"正楷";}
+.main1 {height:100px;
+background-color:#1D897D;
+width:100%px;
+text-align:left;
+line-height:35px;
+position:relative;
+margin-top:35px;
+font-size:15px;
+padding:10px;}
+.aside1{height:200px;
+background-color:#1D897D;
+width:100%px;
+text-align:left;
+margin-left:210px;
+margin-top:-344px;
+font-size:16px;
+line-height:30px;}
+.article1{font-family:"LiSu";
+font-size:20px;
+letter-spacing:2px;
+text-indent:3em;
+line-height:40px;
+	text-align: center;
+background:#F2EFEF;
+color:red;}
+.article2{font-family:"LiSu";
+font-size:5px;
+letter-spacing:2px;
+text-indent:3em;
+line-height:40px;
+	text-align: center;
+background:#F2EFEF;}
+.img_div {
+    margin: 20px 400px 0 400px;
+    position: relative;
+    width: 531px;
+    height: 354px;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 531px;
+    height: 354px;
+    background: rgba(101, 101, 101, 0.6);
+    color: #ffffff;
+    opacity: 0;
+}
+.mask h3 {
+    text-align: center;
+}
+.img_div a:hover .mask {
+    opacity: 1;}       
+
+
+

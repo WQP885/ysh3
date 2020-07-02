@@ -1,0 +1,57 @@
+*{
+                padding:0px;
+                margin: 0px;
+            }
+            
+            #outer{
+                position: relative;
+                width:660px;
+                height:425px;
+                margin:50px auto ;
+                background:yellow;
+                padding:10px 0;
+                overflow: hidden;
+            }
+            #imglist{
+                position: absolute;
+                list-style: none;
+                /*
+                 * 设置偏移量
+                 * 
+                 * 
+                 */
+                left:0px;
+              
+            }
+            #imglist li{
+                margin: 0 10px;
+                float:left;
+            }
+            
+            #navDiv{
+                position: absolute;
+                bottom: 15px;
+                /*
+                 * 设置left值
+                 * outer宽度 640
+                 * navDiv宽度 30*5=125
+                 * 640-125=515
+                 * 515/2=257.5
+                 * left:257.5px;
+                 */
+                left:0;
+                
+            }
+            #navDiv a{
+                float:left;
+                width:20px;
+                height:20px;
+                background:#ff1;
+                opacity: 0.5;
+                /*兼容IE8的透明*/
+                filter:alpha(opacity=50);
+                margin: 0 5px;
+            }
+            #navDiv a:hover{
+                background:red;
+            }
